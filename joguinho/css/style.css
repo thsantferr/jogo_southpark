@@ -1,0 +1,99 @@
+
+.pginicio {
+	background: url(../imagens/imgindex.png)  fixed no-repeat  ;
+	background-size:cover;
+	margin: 30vh;
+	}
+
+.pagjogo{
+	background:url(../imagens/page1920.png) fixed no-repeat;
+	background-size:cover;
+	margin-right:26vw;
+	margin-left:30vw;
+	}
+.pagfim{
+	background: fixed no-repeat;
+	background-size:cover;
+	margin-right:20vw;
+	margin-left:20vw;
+	}
+.paglog{
+	background: url(../imagens/imagtelalog.png) fixed no-repeat;
+	background-size:cover;
+	margin-right:10vw;
+	margin-left:20vw;
+	}
+.paginsert{
+	background: url(../imagens/inserir.png) fixed no-repeat;
+	background-size:cover;
+	margin-right:20vw;
+	margin-left:20vw;
+	}
+.pagalterar{
+	background: url(../imagens/alterar.png) fixed no-repeat;
+	background-size:cover;
+	margin-right:26vw;
+	margin-left:30vw;
+	}
+.font {
+	font-family: 'Indie Flower', cursive;
+	font-size: 3vh;
+	}
+.alinhamento{
+	text-align:center;
+	align-items:center;
+	alignment-adjust:central;
+	
+	}
+@media screen and (max-width: 800px) {
+		.pagjogo{
+			background: url(../imagens/quizmoblie.png) no-repeat fixed;
+			background-size:cover;
+			margin-right:0vw;
+			margin-left:0vw;
+		}
+		.pginicio {
+			background: url(../imagens/imgindexmobile.png) fixed no-repeat  ;
+			background-size:cover;
+			margin: 10vh;
+		}
+		.pagfim{
+			background:  fixed no-repeat;
+			background-size:cover;
+			}
+		.paglog{
+			background:url(../imagens/imagtelalogmobile.png) fixed no-repeat;
+			background-size:cover;
+			margin-right:0vw;
+			margin-left:20vw;
+			}
+		.paginsert{
+			background: url(../imagens/inserirmobile.png) fixed no-repeat;
+			background-size:cover;
+			margin-right:0vw;
+			margin-left:20vw;
+			}
+		.pagalterar{
+			background: url(../imagens/alterarmobile.png) fixed no-repeat;
+			background-size:cover;
+			margin-right:0vw;
+			margin-left:20vw;
+			}
+		
+	}
+@media screen and (max-width: 600px) {
+		.pagjogo{
+			margin-right:0vw;
+			margin-left:20vw;
+		}
+		.pginicio {
+			margin-right:0vw;
+			margin-left:20vw;
+		}
+	}
+@media screen and (max-width: 480px) {
+		
+	}
+@media screen and (max-width: 320px) {
+		   	
+	}
